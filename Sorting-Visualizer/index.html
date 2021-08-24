@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <title>Sorting-Visualizer</title>
+    </head>
+    <!--Header Tag Start Here-->
+    <header>
+      <h1 align="center">Sorting Visualizer</h1>
+    <nav>
+        <div class="row">
+            <div class="col gap-2 d-sm-flex" id="newArray">
+                <button type="button" class="btn btn-outline-danger btn-dark newArray">New Array</button>
+            </div>
+            <div class="col" id="input">
+                <span id="size">Size
+                    <input id="arr_sz" type="range" min="5" max="100" step=1 value=60>
+                </span>
+                <span id="speed">Speed
+                    <input id="speed_input" type="range" min="20" max="300" stepDown=10 value=60>
+                </span>
+            </div>
+            <div class="col gap-2 d-sm-flex justify-content-end">
+                <button type="button" class="btn btn-outline-primary btn-dark bubbleSort">Bubble Sort</button>
+                <button type="button" class="btn btn-outline-primary btn-dark selectionSort">Selection Sort</button>
+                <button type="button" class="btn btn-outline-primary btn-dark insertionSort">Insertion Sort</button>
+                <button type="button" class="btn btn-outline-primary btn-dark quickSort">Quick Sort</button>
+                <button type="button" class="btn btn-outline-primary btn-dark mergeSort">Merge Sort</button>
+            </div>
+        </div>
+    </nav>
+    </header>
+    <!--Header Tag End Here -->
+    <!--Body Start here-->
+    <body class="p-3 mb-2 bg-dark text-white" >
+
+    <div id="bars" class="flex-container"></div>
+
+    
+    
+    
+
+
+
+
+
+
+
+
+       
+     <!--Body End Here -->  
+     <!--All script tag Start Here-->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="Scripts/sorting.js"></script>
+    <script src="Scripts/bubble.js"></script>
+    <script src="Scripts/insertion.js"></script>
+    <script src="Scripts/merge.js"></script>
+    <script src="Scripts/quick.js"></script>
+    <script src="Scripts/selection.js"></script>
+     <!--All Script tag End Here-->
+    </body>
+</html>
